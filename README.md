@@ -1,6 +1,6 @@
 # Fraud Detection Modelling dengan Keras Preprocessing dan Class Weighting
 
-Fraud detection sudah menjadi studi kasus populer untuk klasifikasi dimana data nya tidak seimbang (*imbalance*). Disini data yang [digunakan]([Credit Card Transactions Fraud Detection Dataset | Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv)) memiliki persentase kelas positif (sampel dimana terjadi penipuan) sebesar 0.58% dari total 1296675 sampel. Notebook bisa diakses di 
+Fraud detection sudah menjadi studi kasus populer untuk klasifikasi dimana data nya tidak seimbang (*imbalance*). Disini data yang [digunakan](https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTrain.csv) memiliki persentase kelas positif (sampel dimana terjadi penipuan) sebesar 0.58% dari total 1296675 sampel. Buka notebook di [Google Colab](https://colab.research.google.com/github/zeerafle/fraud-detection/blob/main/Fraud_Detection.ipynb)
 
 ```python
 neg, pos = np.bincount(raw_df['is_fraud'])
